@@ -2,6 +2,8 @@
 
 A modern news portal built with React, TypeScript, Redux Toolkit, and Material UI.
 
+🚀 **Live demo:** [news-portal-project.netlify.app](https://news-portal-project.netlify.app/)
+
 ## Tech Stack
 
 - **React 18** + **TypeScript**
@@ -30,17 +32,17 @@ npm run dev
 
 ## Redux Slices
 
-| Slice | Responsibility |
-|-------|---------------|
-| `newsSlice` | Articles, category filter, search, pagination (async thunk) |
-| `bookmarksSlice` | Save/remove articles, localStorage persistence |
-| `uiSlice` | Dark mode, search panel state |
+| Slice            | Responsibility                                              |
+| ---------------- | ----------------------------------------------------------- |
+| `newsSlice`      | Articles, category filter, search, pagination (async thunk) |
+| `bookmarksSlice` | Save/remove articles, localStorage persistence              |
+| `uiSlice`        | Dark mode, search panel state                               |
 
 ## Pages
 
-| Route | Page |
-|-------|------|
-| `/` | Home — featured + latest |
-| `/article/:id` | Full article |
-| `/category/:slug` | Category feed |
-| `/bookmarks` | Saved articles |
+| Route             | Page                     |
+| ----------------- | ------------------------ |
+| `/`               | Home — featured + latest |
+| `/article/:id`    | Full article             |
+| `/category/:slug` | Category feed            |
+| `/bookmarks`      | Saved articles           |
